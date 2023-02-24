@@ -52,6 +52,9 @@ virtualenv ENV
 install all required dependencies listed in requirements.txt
 To run our website on your local server, enter the code python app.py
 Enter the ip address generated, on your browser's search bar.
+
+--
+
 🔹Data Source Files
 I would like to deeply thank Julian McAuley for sharing this mass collection of datasets containing Amazon reviews. These files can be accessed from the link below:-
 
@@ -60,6 +63,9 @@ http://jmcauley.ucsd.edu/data/amazon/
 4 datasets that I used in this project are (Per-category files):
 
 Home and Kitchen - reviews
+
 Home and Kitchen - metadata
+
 Musical Instruments - reviews
+
 Musical Instruments - metadata
