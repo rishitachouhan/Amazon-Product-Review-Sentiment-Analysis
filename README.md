@@ -23,7 +23,8 @@ I will be classifying Amazon customer reviews from the source files mentioned be
 
 An automated system was developed to analyze and monitor an enormous number of reviews. By monitoring the entire review history of products, we analyzed the tone, language, keywords, and trends over time to provide valuable insights that increase the success rate of existing and new products as well as marketing campaigns.
 
-image
+![image](https://user-images.githubusercontent.com/115287902/221250402-75158fdc-5556-4ff8-be2f-e95a52e7b4d5.png)
+
 
 Sentiment Analysis is a technique used in Natural Language Processing that converts unstructured text into data that can be analysed. It is an emerging tool that helps businesses differentiate and categorize opinions about their products, services and brand image.
 
