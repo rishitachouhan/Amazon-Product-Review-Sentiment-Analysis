@@ -1,20 +1,65 @@
-# Amazon-Product-Review-Sentiment-Analysis
+Amazon-Product-Reviews - Sentiment-Analysis
+Table of Contents
+1. Problem Statement
+2. My Approach
+3. Technologies used
+4. Project Objectives
+5. Running My Deployed project on your Local Server
+6. Data source files
 
-Data Source - http://jmcauley.ucsd.edu/data/amazon/
+🔹Problem Statement
+It is observed that the maximum number of customers look at product reviews before they make a purchase. Survey results show that positive product reviews are a key factor for purchasing by 57% of Amazon buyers (Statista, 2019).
 
-•Sentiment analysis refers to the process of interpreting and analyzing words to determine whether the tone is positive ,negative or neutral.
+As product reviews are often the deciding factor for many customers, it’s very important to have a well-automated system for monitoring them.
 
+The traditional manual process of Amazon product reviews is time-consuming and inefficient when millions of reviews are being posted all the time. It doesn’t show any trend or patterns over time. Moreover, it is tough to understand customers’ sentiment towards any product or its delivery.
 
-•Advanced sentiment analysis programs can even identify specific emotions, such as happiness, excitement, sadness and anger.
+🔹My Approach
+I will be classifying Amazon customer reviews from the source files mentioned below, into 3 categories of positive, negative and neutral. The techniques used to solve this problem involve Text Classification and Time Series Analysis.
 
+An automated system was developed to analyze and monitor an enormous number of reviews. By monitoring the entire review history of products, we analyzed the tone, language, keywords, and trends over time to provide valuable insights that increase the success rate of existing and new products as well as marketing campaigns.
 
-•To create a sentiment analysis project, gather several text samples you want to interpret. These could include emails, social media comments, advertisements or even literary passages.
+image
 
+Sentiment Analysis is a technique used in Natural Language Processing that converts unstructured text into data that can be analysed. It is an emerging tool that helps businesses differentiate and categorize opinions about their products, services and brand image.
 
-•Then use the python language to create an algorithm that interprets the tone of your samples.
+Time Series Analysis helps in highlighting trends to forecast sentiment trends for particular subcategories in the future. Brands can discover many hidden trends in customer sentiments from historical data.
 
+🔹Technologies used
+image
 
-•To display your final results, consider creating a word cloud.
+🔹Project Objectives
+➣ Reviews Preprocessing and Cleaning
 
+➣ Story Generation and Visualization from reviews - Tableau
 
-•Deployement of the model using flask, HTML and CSS, Visual Studio 
+➣ Extracting Features from Cleaned reviews
+
+➣ Model Building: Sentiment Analysis
+
+➣ Model Building: Time Series Analysis
+
+➣ Model Deployment
+
+🔹Running my Deployed project on your Local Server
+Go to your command prompt/terminal, change your directory to the folder that includes all the files in the deploymed_files folder
+
+Then, enter the following codes:
+
+pip install virtualenv
+virtualenv ENV
+./ENV/Scripts/activate
+install all required dependencies listed in requirements.txt
+To run our website on your local server, enter the code python app.py
+Enter the ip address generated, on your browser's search bar.
+🔹Data Source Files
+I would like to deeply thank Julian McAuley for sharing this mass collection of datasets containing Amazon reviews. These files can be accessed from the link below:-
+
+http://jmcauley.ucsd.edu/data/amazon/
+
+4 datasets that I used in this project are (Per-category files):
+
+Home and Kitchen - reviews
+Home and Kitchen - metadata
+Musical Instruments - reviews
+Musical Instruments - metadata
