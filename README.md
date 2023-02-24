@@ -7,12 +7,16 @@ Table of Contents
 5. Running My Deployed project on your Local Server
 6. Data source files
 
+__________________________________________________________________________________________________________________________________________________________________
+
 🔹Problem Statement
 It is observed that the maximum number of customers look at product reviews before they make a purchase. Survey results show that positive product reviews are a key factor for purchasing by 57% of Amazon buyers (Statista, 2019).
 
 As product reviews are often the deciding factor for many customers, it’s very important to have a well-automated system for monitoring them.
 
 The traditional manual process of Amazon product reviews is time-consuming and inefficient when millions of reviews are being posted all the time. It doesn’t show any trend or patterns over time. Moreover, it is tough to understand customers’ sentiment towards any product or its delivery.
+
+____________________________________________________________________________________________________________________________________________________________________
 
 🔹My Approach
 I will be classifying Amazon customer reviews from the source files mentioned below, into 3 categories of positive, negative and neutral. The techniques used to solve this problem involve Text Classification and Time Series Analysis.
@@ -25,8 +29,13 @@ Sentiment Analysis is a technique used in Natural Language Processing that conve
 
 Time Series Analysis helps in highlighting trends to forecast sentiment trends for particular subcategories in the future. Brands can discover many hidden trends in customer sentiments from historical data.
 
+____________________________________________________________________________________________________________________________________________________________________
+
 🔹Technologies used
 image
+
+
+______________________________________________________________________________________________________________________________________________________________________
 
 🔹Project Objectives
 ➣ Reviews Preprocessing and Cleaning
@@ -41,6 +50,8 @@ image
 
 ➣ Model Deployment
 
+___________________________________________________________________________________________________________________________________________________________________
+
 🔹Running my Deployed project on your Local Server
 Go to your command prompt/terminal, change your directory to the folder that includes all the files in the deploymed_files folder
 
@@ -48,12 +59,18 @@ Then, enter the following codes:
 
 pip install virtualenv
 virtualenv ENV
+
 ./ENV/Scripts/activate
+
 install all required dependencies listed in requirements.txt
+
+
 To run our website on your local server, enter the code python app.py
+
+
 Enter the ip address generated, on your browser's search bar.
 
---
+_________________________________________________________________________________________________________________________________________________________________
 
 🔹Data Source Files
 I would like to deeply thank Julian McAuley for sharing this mass collection of datasets containing Amazon reviews. These files can be accessed from the link below:-
